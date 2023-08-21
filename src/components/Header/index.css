@@ -1,0 +1,25 @@
+.nav-bar-dark {
+  border: 1px solid grey;
+  background-color: grey;
+  color: white;
+}
+.nav-bar-white {
+  border: 1px solid grey;
+  background-color: white;
+}
+.nav-link-style {
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 25px;
+  font-family: "Roboto";
+  color: red;
+}
+.profile-logout-container {
+  margin-left: 50%;
+}
+.dark-theme-image {
+  font-size: 35px;
+}
+
+

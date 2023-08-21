@@ -1,0 +1,42 @@
+.home-container {
+  padding-top: 10px;
+  background-color: rgb(184, 183, 183);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+
+.sms-logo {
+  width: 80px;
+  height: 80px;
+}
+
+.bottom-part {
+  display: flex;
+  width: 100%;
+  padding: 25px;
+}
+
+.bottom-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  padding-right: 15px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .bottom-part {
+    flex-wrap: wrap;
+  }
+}

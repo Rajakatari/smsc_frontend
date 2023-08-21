@@ -1,0 +1,15 @@
+.login-form-main-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  align-items: center;
+  height: 100vh;
+  background-image: url("http://smsc2.tesync.net/SMSCLoginPage/images/banner.jpg");
+  background-size: cover;
+}
+.login-form {
+  border: 1px solid gray;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 8px 2px black;
+}
